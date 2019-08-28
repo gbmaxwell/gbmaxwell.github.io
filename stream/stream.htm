@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>        
+        <head>
+            <title>GB MAXWELL - twitch.tv</title>
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+            <link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">
+            <link rel="stylesheet" media="all and (orientation:landscape)" href="landscape.css">
+            <link rel="shortcut icon" type="image/png" href="C:\Users\gb_\Documents\bio\gbnu.png">
+        </head>
+  <body>
+    <a id="item" href="C:\Users\gb_\Documents\bio\index.htm">
+        <div id="bar">
+            <img id="icon" width="100%" src="C:\Users\gb_\Documents\bio\home\iconsitesmall.png" type="img/png" alt="gb logo"></img>
+            <p>GB MAXWELL</p>
+        </div>
+    </a>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "thegbmaxwell"
+      });
+    </script>
+  </body>
+</html>
